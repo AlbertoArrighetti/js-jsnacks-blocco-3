@@ -11,10 +11,17 @@ const secondArray = [1, 2, 3];
 
 // riusltato 
 const result = combineArray(firstArray, secondArray);
-console.log(result);
 
 
 
+// mostro i due array e il risultato in pagina 
+
+document.getElementById("show-array").innerHTML = `${firstArray} <br> ${secondArray}`;
+
+document.getElementById("result").innerHTML = result;
+
+
+// FUNZIONI 
 
 // funzione che abbia i 2 parametri 
 function combineArray(arrOne, arrTwo){
