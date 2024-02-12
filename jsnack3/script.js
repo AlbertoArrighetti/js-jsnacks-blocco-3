@@ -5,13 +5,13 @@
 
 // abbiamo un array così: arrayNumeri = [0, 1, 2, 3, 4, 5, 6]
 const numbersArray = [0, 1, 2, 3, 4, 5, 6];
-
-
 const arrayPortion = selector(numbersArray, 2, 4);
 
-console.log(arrayPortion);
 
-
+document.getElementById("result").innerHTML = `
+Numeri dell'array: ${numbersArray} <br>
+Porzione: ${arrayPortion}
+`;
 
 // FUNZIONI
 
