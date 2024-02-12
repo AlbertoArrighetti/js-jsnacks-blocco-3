@@ -16,7 +16,7 @@ btnElement.addEventListener("click", function(){
 
     const uppercase = capitalUppercase(stringToUppercase);
 
-    console.log(uppercase);
+    document.getElementById("result").innerText = uppercase;
 
 })
 
