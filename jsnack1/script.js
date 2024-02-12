@@ -28,6 +28,5 @@ function reverseWord(word) {
     // con .join le unisco per creare la parola invertita 
     const reverse = word.split('').reverse().join('');
 
-
     return reverse;
 }
