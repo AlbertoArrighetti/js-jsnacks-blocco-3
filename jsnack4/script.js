@@ -20,6 +20,7 @@ btnElement.addEventListener("click", function(){
 
 // FUNZIONI 
 function stringToOrder(word){
+    
     // con .split separo la parola in un array di lettere 
     // con sort ordino le lettere in ordine alfabetico
     // con .join le unisco per creare la parola invertita 
