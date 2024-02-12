@@ -13,9 +13,10 @@ btnElement.addEventListener("click", function(){
     const wordToRevert = userWord.value;
 
     // inverto la parola richiamando la funzione 
-    const reverse = reverseWord(wordToRevert)
+    const reverse = reverseWord(wordToRevert);
 
-    console.log(reverse);
+    // inserimento in pagina 
+    document.getElementById("result").innerText = reverse;
 })
 
 // creo una funzione per invertire le parole inserite
